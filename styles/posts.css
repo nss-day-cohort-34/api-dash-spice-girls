@@ -1,0 +1,47 @@
+body {
+    background-color: #ffeafe;
+}
+
+.allPosts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.onePost {
+    word-wrap: break-word;
+    min-width: 20em;
+    min-height: 25em;
+    max-height: 25em;
+    flex-basis: 28%;
+    color: #553c8b;
+    margin: 1em;
+    padding: 1em;
+    background-color: #ccc1ff;
+}
+
+.onePost:hover {
+    background-image: linear-gradient(#553c8b, #9ea9f0);
+    color: #ccc1ff;
+}
+
+.post-title {
+    font-family: 'Abril Fatface', cursive;
+    margin: 0em;
+    text-align: center;
+}
+
+.post-body {
+    font-family: 'Raleway', sans-serif;
+    margin: 2em;
+    text-align: center;
+}
+
+.main-post-title {
+    font-family:  'Abril Fatface', cursive;
+    margin: 20px;
+    color: #553c8b;
+}
+
+.post-number {
+    text-align: center;
+}
