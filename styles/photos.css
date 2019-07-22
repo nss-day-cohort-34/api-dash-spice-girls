@@ -30,11 +30,13 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px 0 10px 0;
+  color: #553c8b;
 }
 
 .photo:hover {
   /* background-color: #ccc1ff; */
   background-image: linear-gradient(#553c8b, #9ea9f0);
+  color: #ccc1ff;
 }
 
 .photo__title {
@@ -42,6 +44,5 @@ body {
   font-size: .85em;
   width: 150px;
   font-family: 'Raleway', sans-serif;
-  color: #553c8b;
 
 }
