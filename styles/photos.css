@@ -33,7 +33,8 @@ body {
 }
 
 .photo:hover {
-  background-color: #ccc1ff;
+  /* background-color: #ccc1ff; */
+  background-image: linear-gradient(#553c8b, #9ea9f0);
 }
 
 .photo__title {

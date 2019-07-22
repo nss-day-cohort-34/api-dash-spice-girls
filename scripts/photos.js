@@ -3,8 +3,8 @@ const photoContainer = document.querySelector("#photoContainer")
 const convertPhotoInfoToHtml = (photoObject, photoNumber) => {
   return `
   <section class="photo">
-  <a href="${photoObject.url}"><img src="${photoObject.thumbnailUrl}" alt=""></a>
-  <h3 class="photo__title">${photoNumber}. Title${photoObject.title}</h3>
+    <a href="${photoObject.url}"><img src="${photoObject.thumbnailUrl}" alt=""></a>
+    <h3 class="photo__title">${photoNumber}. Title${photoObject.title}</h3>
   </section>
   `
 }
