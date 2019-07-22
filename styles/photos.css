@@ -9,17 +9,19 @@ body {
 }
 
 .main-header {
-  margin: 20px;
+  margin-top: 2em;
   font-family: 'Abril Fatface', cursive;
   color: #553c8b;
   font-size: 2em;
+  text-align: center;
 }
 
 #photoContainer {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 4em;
 }
 
 .photo {
