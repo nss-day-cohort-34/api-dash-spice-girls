@@ -5,8 +5,10 @@ color: #553c8b;
 
 .todos-title {
     font-family:  'Abril Fatface', cursive;
-    margin: 20px;
+    margin-top: 2em;
+    margin-bottom: 20px;
     font-size: 2em;
+    text-align: center;
 }
 
 #todos__container {
@@ -14,6 +16,7 @@ color: #553c8b;
     justify-content: space-evenly;
     flex-wrap: wrap;
     color: #553c8b;
+    margin-bottom: 4em;
 }
 
 .toDo__item {
@@ -36,4 +39,9 @@ color: #553c8b;
 input[type='checkbox'] {
     width:30px;
     height:30px;
+}
+
+.checked-item {
+    color: #9ea9f0;
+    font-style: italic;
 }

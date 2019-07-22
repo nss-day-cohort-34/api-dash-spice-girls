@@ -2,7 +2,7 @@ const toDosContainer = document.querySelector("#todos__container")
 
 const toDoFactory = (toDoItem) => {
     return `
-    <section class="toDo__item">
+    <section class="toDo__item ${toDoItem.completed ? "checked-item" : ""}">
         <input type="checkbox" name="todo" value="${toDoItem.completed}" ${toDoItem.completed ? "checked" : ""}><br/>
         <h2>${toDoItem.title}</h2>
     </section>
