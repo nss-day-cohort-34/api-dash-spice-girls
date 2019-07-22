@@ -1,0 +1,39 @@
+body {
+background-color: #ffeafe;
+color: #553c8b;
+}
+
+.todos-title {
+    font-family:  'Abril Fatface', cursive;
+    margin: 20px;
+    font-size: 2em;
+}
+
+#todos__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: #553c8b;
+}
+
+.toDo__item {
+    width: 20%;
+    /* border: 1px solid #553c8b; */
+    margin: 1%;
+    padding: 1%;
+    background-color: #ccc1ff;
+    text-align: center;
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+.toDo__item:hover {
+    background-color: #553c8b;
+    color: #ccc1ff;
+    background-image: linear-gradient(#553c8b, #9ea9f0);
+
+}
+
+input[type='checkbox'] {
+    width:30px;
+    height:30px;
+}
