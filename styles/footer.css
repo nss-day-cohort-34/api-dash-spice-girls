@@ -1,0 +1,20 @@
+.footer {
+    background-color: #9ea9f0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.footerItems {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.footerLink {
+    list-style: none;
+}
+
+.footerImg {
+    max-width: 30px;
+}
