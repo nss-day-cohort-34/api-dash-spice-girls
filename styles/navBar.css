@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffeafe;
+}
+
+.navBar {
+  background-color: #ccc1ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.navBarItems {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.5em;
+  width: 100%;
+  padding-right: 1em;
+}
+
+.navItem {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.navItem > a:link, 
+.navItem > a:visited {
+  text-decoration: none;
+  color: #553c8b;
+}
+
+.navItem > a:hover {
+  color: #ffeafe;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header-welcome {
+  font-family: 'Abril Fatface', cursive;
+  color: #553c8b;
+  
+}
+
+.img-spice-girls {
+  width: 20%;
+}
