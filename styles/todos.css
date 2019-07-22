@@ -3,6 +3,12 @@ background-color: #ffeafe;
 color: #553c8b;
 }
 
+.todos-title {
+    font-family:  'Abril Fatface', cursive;
+    margin: 20px;
+    font-size: 2em;
+}
+
 #todos__container {
     display: flex;
     justify-content: space-evenly;
@@ -17,6 +23,7 @@ color: #553c8b;
     padding: 1%;
     background-color: #ccc1ff;
     text-align: center;
+    font-family: 'Abril Fatface', sans-serif;
 }
 
 .toDo__item:hover {
@@ -29,5 +36,4 @@ color: #553c8b;
 input[type='checkbox'] {
     width:30px;
     height:30px;
-
 }
