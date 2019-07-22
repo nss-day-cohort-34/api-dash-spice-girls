@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 4em;
 }
 .onePost {
     word-wrap: break-word;
@@ -38,10 +39,12 @@ body {
 
 .main-post-title {
     font-family:  'Abril Fatface', cursive;
-    margin: 20px;
+    margin-top: 2em;
     color: #553c8b;
+    text-align: center;
 }
 
 .post-number {
     text-align: center;
+    margin: 0.4em;
 }
