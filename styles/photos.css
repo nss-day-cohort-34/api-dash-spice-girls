@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-header {
+  margin: 10px;
+}
+
+#photoContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.photo {
+  flex-basis: 20%;
+}
+
+.photo__title {
+  word-wrap: break-word;
+  font-size: .85em;
+  width: 150px;
+}
