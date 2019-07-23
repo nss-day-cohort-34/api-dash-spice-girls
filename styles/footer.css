@@ -15,6 +15,12 @@
     list-style: none;
 }
 
-.footerImg {
+.footerIcon {
     max-width: 30px;
+    font-size: 2em;
+    color: #553c8b;
+}
+
+.footerIcon:hover {
+    color: #ffeafe;
 }
